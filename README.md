@@ -40,4 +40,12 @@ Saya Khalifa Nabil Nur dengan NIM 2511372 mengerjakan Tugas Praktikum 6 dalam ma
      - Pemeriksaan Skor: Jika posisi burung melewati batas kanan pipa dan pipe.isPassed() masih false, skor bertambah +1 dan SFX poin diputar.
      - Pemeriksaan Tabrakan: Jika burung menabrak pipa atas/bawah atau menyentuh lantai/batas bawah layar, permainan langsung memicu kondisi Game Over.
      - Redraw (Repaint): View.java menggambar ulang seluruh objek grafis dan memperbarui teks pada JLabel skor.
-4. 
+4. Input Kontrol Pemain
+   - Tombol SPACE: Mengubah kecepatan vertikal burung menjadi negatif (velocityY = -9), membuat burung terdorong ke atas (melompat).
+   - Tombol R: Jika status game sedang Game Over, menekan tombol R akan mereset posisi burung, mengosongkan list pipa, mereset skor menjadi 0, dan memutar kembali game loop dari awal.  
+5. Kondisi Game Over
+   - Game loop dan spawner pipa dihentikan (stop()).
+   - Efek suara benturan (hit.wav) diputar.
+   - View.java menggambar overlay semi-transparan hitam bertuliskan "GAME OVER", skor akhir pemain, serta instruksi "Press 'R' to Restart". <br>
+
+# Dokumentasi
