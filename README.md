@@ -49,3 +49,7 @@ Saya Khalifa Nabil Nur dengan NIM 2511372 mengerjakan Tugas Praktikum 6 dalam ma
    - View.java menggambar overlay semi-transparan hitam bertuliskan "GAME OVER", skor akhir pemain, serta instruksi "Press 'R' to Restart". <br>
 
 # Dokumentasi
+
+
+https://github.com/user-attachments/assets/01bc71f9-0b95-442d-9e0d-5611e9535180
+
